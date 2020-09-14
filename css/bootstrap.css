@@ -129,6 +129,10 @@ blockquote {
   margin: 0 0 1rem;
 }
 
+p {
+  text-align: justify;
+}
+
 b,
 strong {
   font-weight: bolder;
@@ -5299,10 +5303,32 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .jumbotron {
+  
   padding: 2rem 1rem;
-  margin-bottom: 2rem;
-  background-color: #e9ecef;
+  margin-bottom: 6rem;
   border-radius: 0.3rem;
+  
+}
+
+.jumbotron-item {
+  height: 20rem;
+  
+  
+}
+.jumbotron-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 29rem;
+  /*Capa Transparente*/
+  filter:brightness(0.6);
+}
+
+.jumbotron-caption {
+ 
+  bottom: -8rem;
+  z-index: 10;
 }
 
 @media (min-width: 576px) {
