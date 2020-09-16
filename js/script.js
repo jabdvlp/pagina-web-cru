@@ -12,3 +12,8 @@ function carousel() {
   x[myIndex-1].style.display = "block";  
   setTimeout(carousel, 2000);    
 }
+
+// MDB Lightbox Init
+$(function () {
+$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+});
